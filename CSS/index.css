@@ -1,5 +1,5 @@
 * {
-  text-decoration: none;
+  
   color: black;
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@
   
 }
 body{
-  background-image: url(../images/nubes.jpg);
+  
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 0%;
@@ -18,7 +18,7 @@ body{
 .cabezado{
   width: 100%;
   height: 350px;
-  background-color: aquamarine;
+  background-color: #A2DEF6;
   padding: 20px;
   margin: 0%;
 }
@@ -63,19 +63,25 @@ a:hover, a:active {
   grid-template-columns: auto auto auto;
   gap: 50px 20px;
   padding: 10px;
+  
 }
 .imagen {
-  background-color: white;
-  border: 2px solid black;
+  background-color: white; 
   width: 380px;
-  height: 104px;  
+  height: 110px;  
   float: left;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #A2DEF6;
+  
 }
 .texto2{
-  border: 2px solid black;
-  width: 100px;
-  height: 60px;        
-  float: left   ;   
+  padding-left: 5%;
+  width: 230px;
+  height: 110px;        
+  margin-left: 150px;
+  margin-top: -115px;
+  color: white;
 }
 
 
