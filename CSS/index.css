@@ -69,9 +69,13 @@ a:hover, a:active {
   border: 2px solid black;
   width: 380px;
   height: 104px;  
+  float: left;
 }
 .texto2{
   border: 2px solid black;
+  width: 100px;
+  height: 60px;        
+  float: left   ;   
 }
 
 
