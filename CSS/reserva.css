@@ -1,0 +1,17 @@
+.encabezado {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 2px solid black;
+}s
+
+.logo {
+    position: absolute;
+    top: 50px;
+    border: 20px solid black;
+}
+
+.selector1 {
+    height: auto;
+    width: 3000px;
+}
