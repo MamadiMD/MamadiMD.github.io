@@ -1,66 +1,65 @@
 body {
     background-image: url(../images/nubes.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    background-position-y: top;
+}
+
+#degradado {
+    position: relative;
+    width: 5000px;
+    height: 300px;
+    float: none;
 }
 
 h1 {
+    position: absolute;
+    margin-left: 1200px;
     font-size: 75px;
-    text-align: center;
-    border: 2px solid black;
+    color: white;
 }
 
-img {
-    border: 2px solid black;
+#logo {
+    position: absolute;
 }
 
 div {
     display: flex;
-    border: 2px solid black;
-}
-
-#avionReserva {
-    height: 300px;
-    margin-left: 40px;
-}
-
-#avionReserva2 {
-    height: 300px;
-    margin-left: 100px;
 }
 
 .cuadricula {
-    padding: right;
     margin-left: 200px;
 }
 
 .selector1 {
-    font-size: 25px;
-    margin: 0 224px 0 113px;
+    font-size: 40px;
+    margin: 0 224px 10px 50px;
 }
 
 .selector2 {
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .selector3 {
-    font-size: 25px;
-    margin-right: 40px;
+    font-size: 40px;
+    margin: 0 220px 0 50px;
 }
 
 .selector4 {
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .selector5 {
-    font-size: 25px;
-    margin-right: 40px;
+    font-size: 40px;
+    margin: 10px 220px 0 50px;
 }
 
 .selector6 {
-    font-size: 25px;
+    font-size: 40px;
 }
 
 select {
-    width: 90px;
-    height: 30px;
+    width: 200px;
+    height: 50px;
     font-size: 25px;
 }
