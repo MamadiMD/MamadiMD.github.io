@@ -8,6 +8,10 @@ img {
 
 #avionReserva {
     height: 300px;
-    max-width: 500px;
-    margin-left: 400px;
+    margin-left: 40px;
+}
+
+#avionReserva2 {
+    height: 300px;
+    margin-left: 40px;
 }
