@@ -1,17 +1,13 @@
-.encabezado {
-    width: 100%;
-    height: auto;
-    position: relative;
-    border: 2px solid black;
-}s
-
-.logo {
-    position: absolute;
-    top: 50px;
-    border: 20px solid black;
+body {
+    background-image: url(../images/nubes.jpg);
 }
 
-.selector1 {
-    height: auto;
-    width: 3000px;
+img {
+    border: 2px solid black;
+}
+
+#avionReserva {
+    height: 300px;
+    max-width: 500px;
+    margin-left: 400px;
 }
