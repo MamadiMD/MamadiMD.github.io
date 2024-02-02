@@ -7,81 +7,100 @@
     <link rel="stylesheet" href="CSS/reserva.css" title="Reserva">
 </head>
 <body>
-    <img src="images/logo.png" id="logo">
+    <img src="images/logo-removebg-preview.png" id="logo">
     <img src="images/avionReserva.jpg" id="avionReserva">
     <img src="images/avionReserva2.jpg" id="avionReserva2">
+
+    <h1>¡RESERVA YA!</h1>
    
-    <div class="selector1">
-        <select name="origen" required>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-        </select>
-        <select name="destino" required>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-        </select>
+    <div class="cuadricula">
+        <div class="selector1">
+            <label for="origen" id="origen">ORIGEN:</label>
+
+            <select name="origen" id="origen" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
+        <div class="selector2">
+            <label for="destino" id="destino">DESTINO:</label>
+
+            <select name="destino" id="destino" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+        </div>
     </div>
-    <div class="selector2">
-        <label for="comienzo">Hora de salida</label>
+    <div class="cuadricula">
+        <div class="selector3">
+            <label for="hora">HORA DE SALIDA:</label>
 
-        <select name="hora" required>
-            <option value="2">2:00</option>
-            <option value="4">4:00</option>
-            <option value="6">6:00</option>
-            <option value="8">8:00</option>
-            <option value="10">10:00</option>
-            <option value="12">12:00</option>
-            <option value="14">14:00</option>
-            <option value="16">16:00</option>
-            <option value="18">18:00</option>
-            <option value="20">20:00</option>
-            <option value="22">22:00</option>
-            <option value="24">24:00</option>
-        </select>
+            <select name="hora" required>
+                <option value="2">2:00</option>
+                <option value="4">4:00</option>
+                <option value="6">6:00</option>
+                <option value="8">8:00</option>
+                <option value="10">10:00</option>
+                <option value="12">12:00</option>
+                <option value="14">14:00</option>
+                <option value="16">16:00</option>
+                <option value="18">18:00</option>
+                <option value="20">20:00</option>
+                <option value="22">22:00</option>
+                <option value="24">24:00</option>
+            </select>
+        </div>
+        <div class="selector4">
+            <label for="billetes">CANTIDAD DE BILLETES:</label>
 
-        <select name="billetes" required>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-        </select>
+            <select name="billetes" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+        </div>
     </div>
+    <div class="cuadricula">
+        </div class="selector5">
+            <label for="asiento">ASIENTO:</label>
 
-        <select name="clase" required>
-            <option value="1">Normal</option>
-            <option value="2">Luxury</option>
-            <option value="3">VIP</option>
-        </select>
-
-        <label for="comienzo">Fecha</label>
-
-        <input type="date" id="comienzo" name="calendarioViaje" min="29/01/2024"/>
+            <select name="clase" required>
+                <option value="1">Normal</option>
+                <option value="2">Luxury</option>
+                <option value="3">VIP</option>
+            </select>
+        </div>
+        <div class="selector6">
+            <label for="comienzo">FECHA:</label>
+            <input type="date" id="comienzo" name="calendarioViaje" min="29/01/2024"/>
+        </div>
+        <div class="botones">
+            <a href="confirmacion.html" id="confirmar">CONFIRMAR</a>
+            <a href="index.html" id="cancelar">CANCELAR</a>
+        </div>
     </div>
-    <div class="botones">
-        <a href="confirmacion.html" id="confirmar">CONFIRMAR</a>
-        <a href="index.html" id="cancelar">CANCELAR</a>
-    </div>
-</body>
+    </body>
 </html>
