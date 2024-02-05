@@ -23,6 +23,10 @@
     height: auto;
     float: left;
   }
+  .bottom3{
+    height: auto;
+    float: left;
+  }
   .arriba{
     padding: 30px 40px;
     height: 80px;
@@ -31,6 +35,13 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   .arriba2{
+    padding: 30px 40px;
+    height: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .arriba3{
     padding: 30px 40px;
     height: 80px;
     font-size: 20px;
@@ -132,7 +143,7 @@
   .img3{
     float: left;
     width: 10%;
-    height: 100%;
+    height: auto;
     padding-left: 10px;
     padding-top: 15px;
   }
@@ -140,10 +151,18 @@
     padding-left: 20px;
     float: left;
     width: 90%;
-    height: 100%;
+    height: auto; 
     border-left: 1px solid rgb(255, 255, 255);
     color: white;
   }
   h2{
     margin-left: 10%;
+  }
+
+  @media only screen and(max-width: 280px) and (max-width: 768px){
+    .primero{
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+
   }
