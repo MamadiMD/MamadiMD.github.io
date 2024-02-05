@@ -71,3 +71,79 @@
     background-color: #A2DEF6;
     padding: 20px;
   }
+  #imagen{
+    width: 80%;
+    height: 80%;  
+  }
+  .primero{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 30px;
+    background-color: #A2DEF6;
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 5%;
+  }
+  .segundo{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 30px;
+    background-color: #A2DEF6;
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 5%;
+  }
+  .tercero{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 30px;
+    background-color: #A2DEF6;
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 5%;
+  }
+  .cuarto{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 30px;
+    background-color: #A2DEF6;
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 5%;
+  }
+  .quinto{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 30px;
+    background-color: #A2DEF6;
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 5%;
+  }
+  .sexto{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 30px;
+    background-color: #A2DEF6;
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 5%;
+  }
+  .img3{
+    float: left;
+    width: 10%;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+  .text2{
+    padding-left: 20px;
+    float: left;
+    width: 90%;
+    height: 100%;
+    border-left: 1px solid rgb(255, 255, 255);
+    color: white;
+  }
+  h2{
+    margin-left: 10%;
+  }
