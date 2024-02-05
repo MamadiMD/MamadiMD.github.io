@@ -1,13 +1,9 @@
 * {
-  text-decoration: none;
-  color: black;
   box-sizing: border-box;
 }
 .bodyy{
-
   margin-left: 8%;
   margin-right: 8%;
-  
 }
 body{
   
@@ -17,45 +13,80 @@ body{
 }
 .cabezado{
   width: 100%;
-  height: 350px;
-  background-color: #A2DEF6;
+  height: 500px;
+  background-color: #ffffff;
   padding: 20px;
-  margin: 0%;
+  background-image: url(../images/ImgEncabezado7.jpg);  
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#a{
+  width:80px;
+  height:80px;
+}
+#b{
+  width:150px; 
+  height:110px;
+}
+.navigationbar{
+  width: 100%;
+  height: 80px;
+  background-color: #A2DEF6;
 }
 .img1{
-  width: auto;
-  height: 100%; 
-  float: left;
-  border: 2px solid black;
-  padding: 10px;
+  width: 100px;
+  height: 100px; 
+  float: right;
 }
 .text1{
   height: 100%;
-  border: 2px solid black;
   width: 50%;
   padding: 10px;
   text-align: center;
   font-size: 20px;  
   float: left;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
 }
 .bottom1{
-  height: 100%;
-  float: right;
-  border: 2px solid black;
-  float: left;
-  
+  height: auto;
+  float: left; 
+}
+.bottom2{
+  height: auto;
+  float: left; 
+}
+.bottom3{
+  height: auto;
+  float: left; 
+}
+.arriba{
+  padding: 30px 40px;
+  height: 80px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.abajo{
+  padding: 25px 40px;
+  height: 80px;
+  width: 300px;
+  border-radius: 50px;
+  font-size: 25px;
+  text-decoration: none;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a:link, a:visited {
-  background-color: rgb(32, 101, 239);
+  background-color: #80d3f4;
   color: white;
-  border: 2px solid rgb(9, 0, 128);
-  padding: 30px 40px;
   text-align: center;
   display: inline-block;
-  font-size: 20px;
+
 }
 a:hover, a:active {
-  background-color: rgb(18, 126, 242);
+  background-color: #6fcff5;
   color: white;
 }
 .imagenes{
@@ -75,6 +106,9 @@ a:hover, a:active {
   background-color: #A2DEF6;
   
 }
+.imagen:hover {
+  filter: opacity(.4);
+}
 .texto2{
   padding-left: 5%;
   width: 230px;
@@ -84,5 +118,57 @@ a:hover, a:active {
   color: white;
 }
 
+.map{
+  padding-left: 15%;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.bottom4{
+  width: 100%;
+  padding-left: 35%;
+  padding-bottom: 5%;
+}
+.parteAbajo{
+  width: 100%;
+  background-color: #A2DEF6;
+  padding: 20px;
+  height: 250px;
+}
+#c{
+  width: 40px;
+  height: 40px;
+}
+.contactos{
+  height: 100%;
+  width: 20%;
+  float: left;
+  color: #ffffff;
+}
+.redes{
+  height: 100%;
+  width: 25%;
+  float: left;
+  color: #ffffff;
+}
+.enlaces{
+  width: 100%;
+  padding-left: 10%;
+  color: white;
+}
+.text4{
+  height: 100%;
+  width: 40%;
+  float: left;
+  color: #ffffff;
+}
+.logo2{
+  height: 100%;
+  padding-left: 10%;
+}
+#d{
+  width: 200px;
+  height: 200px;
+}
 
 
