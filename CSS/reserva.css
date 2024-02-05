@@ -1,8 +1,5 @@
 body {
-    background-image: url(../images/nubes.jpg);
-    background-repeat: no-repeat;
-    background-size: 2000px 1000px;
-    background-position-y: top;
+    margin: 0;
 }
 
 #degradado {
@@ -10,6 +7,19 @@ body {
     width: 5000px;
     height: 300px;
     float: none;
+}
+
+#avionIzq {
+    position: absolute;
+    margin: 10px;
+    width: 250px;
+    height: 450px;
+}
+
+#fondoNubes {
+    position: relative;
+    height: 300px;
+    width: 100%;
 }
 
 h1 {
@@ -28,38 +38,54 @@ div {
 }
 
 .cuadricula {
-    margin-left: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .selector1 {
-    font-size: 40px;
-    margin: 0 224px 10px 50px;
+    position: absolute;
+    margin: 0;
+    font-size: 30px;
+    padding: 50px 0 0 300px;
 }
 
 .selector2 {
-    font-size: 40px;
+    position: absolute;
+    margin: 0;
+    font-size: 30px;
+    padding: 50px 0 0 800px;
 }
 
 .selector3 {
-    font-size: 40px;
-    margin: 0 220px 0 50px;
+    position: absolute;
+    margin: 0;
+    font-size: 30px;
+    padding: 150px 0 0 300px;
 }
 
 .selector4 {
-    font-size: 40px;
+    position: absolute;
+    margin: 0;
+    font-size: 30px;
+    padding: 150px 0 0 800px;
 }
 
 .selector5 {
-    font-size: 40px;
-    margin: 10px 220px 0 50px;
+    position: absolute;
+    margin: 0;
+    font-size: 30px;
+    padding: 250px 0 0 300px;
 }
 
 .selector6 {
-    font-size: 40px;
+    position: absolute;
+    margin: 0;
+    font-size: 30px;
+    padding: 250px 0 0 800px;
 }
 
 select {
-    width: 200px;
-    height: 50px;
+    width: 120px;
+    height: 35px;
     font-size: 25px;
 }
