@@ -140,19 +140,23 @@ select {
 }
 
 #confirmar {
-    height: 100px;
-    width: 200px;
-    margin: 100px 0 90px 580px;
-    font-size: 30px;
+    padding: 30px 40px;
+    height: auto;
+    width: auto;
+    margin: 5% 0 5% 30%;
+    font-size: 28px;
     text-align: center;
+    border: 2px solid black;
 }
 
 #cancelar {
-    height: 100px;
-    width: 200px;
-    margin: 100px 0 90px 60px;
-    font-size: 30px;
+    padding: 30px 40px;
+    height: auto;
+    width: auto;
+    margin: 5% 0 5% 7%;
+    font-size: 28px;
     text-align: center;
+    border: 2px solid black;
 }
 
 .parteAbajo {
