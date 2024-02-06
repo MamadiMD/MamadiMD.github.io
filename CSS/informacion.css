@@ -79,7 +79,7 @@
     background-color: #A2DEF6;
     padding: 20px;
     height: 150px;
-    margin-bottom: 5%;
+    margin-bottom: auto;
   }
   .segundo{
     width: 80%;
@@ -88,7 +88,7 @@
     background-color: #A2DEF6;
     padding: 20px;
     height: 150px;
-    margin-bottom: 5%;
+    margin-bottom: auto;
   }
   .tercero{
     width: 80%;
@@ -97,7 +97,7 @@
     background-color: #A2DEF6;
     padding: 20px;
     height: 150px;
-    margin-bottom: 5%;
+    margin-bottom: auto;
   }
   .cuarto{
     width: 80%;
@@ -106,7 +106,7 @@
     background-color: #A2DEF6;
     padding: 20px;
     height: 150px;
-    margin-bottom: 5%;
+    margin-bottom: auto;
   }
   .quinto{
     width: 80%;
@@ -115,7 +115,7 @@
     background-color: #A2DEF6;
     padding: 20px;
     height: 150px;
-    margin-bottom: 5%;
+    margin-bottom: auto;
   }
   .sexto{
     width: 80%;
@@ -124,7 +124,7 @@
     background-color: #A2DEF6;
     padding: 20px;
     height: 150px;
-    margin-bottom: 5%;
+    margin-bottom: auto;
   }
   .img3{
     float: left;
@@ -143,12 +143,14 @@
   }
   h2{
     margin-left: 10%;
+    width: auto;
+    height: auto;
   }
 
   @media only screen and(max-width: 280px) and (max-width: 768px){
-    .primero{
-      margin-bottom: 0px;
-      margin-top: 0px;
+    .text2{
+      height: 300px;
+      border: 1px solid black;
     }
 
   }
