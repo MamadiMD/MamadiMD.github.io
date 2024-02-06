@@ -14,27 +14,44 @@
     </div>
    
     <div class="cuadricula">
-        <img src="images/fondonubesjpg.jpg" id="fondoNubes">
-        <img src="images/avionReserva3.jpg" id="avionIzq">
-        <div class="selector6">
-            <label for="comienzo">FECHA:</label>
-            <input type="date" id="comienzo" name="calendarioViaje" min="29/01/2024"/>
-        </div>
+        
+        <p id="datos">Introduzca sus datos</p>
 
-        <div class="selector5">
-            <label for="asiento">ASIENTO: </label>
+        <form action="index.html">
 
-            <select name="clase" required>
-                <option value="1">Normal</option>
-                <option value="2">Luxury</option>
-                <option value="3">VIP</option>
-            </select>
-        </div>
+            <div class="textbox1">
+                <label for="nombre" id="nombre">Nombre: </label>
 
-        <div class="selector4">
-            <label for="billetes">CANTIDAD DE BILLETES: </label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
 
-            <select name="billetes" required>
+
+            <div class="textbox2">
+                <label for="apellido" id="apellido">Primer apellido: </label>
+
+                <input type="text" id="apellido" name="apellido">
+            </div>
+
+            <div class="textbox3">
+                <label for="telefono" id="telefono">Telefono: </label>
+
+                <input type="text" id="telefono" name="telefono">
+            </div>
+
+            <div class="textbox4">
+                <label for="dni" id="dni">DNI/NIF: </label>
+
+                <input type="text" id="dni" name="dni">
+            </div>
+
+        </form>
+    
+        <p id="reserva">Datos de reserva</p>
+    
+        <div class="selector1">
+            <label for="origen" id="origen">Origen: </label>
+
+            <select name="origen" id="origen" required>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -46,28 +63,9 @@
                 <option value="9">9</option>
             </select>
         </div>
-
-        <div class="selector3">
-            <label for="hora">HORA DE SALIDA: </label>
-
-            <select name="hora" required>
-                <option value="2">2:00</option>
-                <option value="4">4:00</option>
-                <option value="6">6:00</option>
-                <option value="8">8:00</option>
-                <option value="10">10:00</option>
-                <option value="12">12:00</option>
-                <option value="14">14:00</option>
-                <option value="16">16:00</option>
-                <option value="18">18:00</option>
-                <option value="20">20:00</option>
-                <option value="22">22:00</option>
-                <option value="24">24:00</option>
-            </select>
-        </div>
-
+        
         <div class="selector2">
-            <label for="destino" id="destino">DESTINO: </label>
+            <label for="destino" id="destino">Destino: </label>
 
             <select name="destino" id="destino" required>
                 <option value="1">1</option>
@@ -85,10 +83,29 @@
             </select>
         </div>
 
-        <div class="selector1">
-            <label for="origen" id="origen">ORIGEN: </label>
+        <div class="selector3">
+            <label for="hora">Hora de salida: </label>
 
-            <select name="origen" id="origen" required>
+            <select name="hora" required>
+                <option value="2">2:00</option>
+                <option value="4">4:00</option>
+                <option value="6">6:00</option>
+                <option value="8">8:00</option>
+                <option value="10">10:00</option>
+                <option value="12">12:00</option>
+                <option value="14">14:00</option>
+                <option value="16">16:00</option>
+                <option value="18">18:00</option>
+                <option value="20">20:00</option>
+                <option value="22">22:00</option>
+                <option value="24">24:00</option>
+            </select>
+        </div>
+
+        <div class="selector4">
+            <label for="billetes">Cantidad de billetes: </label>
+
+            <select name="billetes" required>
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -101,10 +118,51 @@
             </select>
         </div>
 
+        <div class="selector5">
+            <label for="asiento">Asiento: </label>
+
+            <select name="clase" required>
+                <option value="1">Normal</option>
+                <option value="2">Luxury</option>
+                <option value="3">VIP</option>
+            </select>
+        </div>
+
+        <div class="selector6">
+            <label for="comienzo">Fecha:</label>
+            <input type="date" id="comienzo" name="calendarioViaje" min="29/01/2024"/>
+        </div>
     </div>
+
     <div class="botones">
         <a href="confirmacion.html" id="confirmar">CONFIRMAR</a>
         <a href="index.html" id="cancelar">CANCELAR</a>
+    </div>
+
+    <div class="parteAbajo">
+        <div class="contactos">
+            <h2>Contactanos</h2>
+            <p>Correo:aerolineasmase@tuempresa.com</p>
+            <p>Telefono: +34 945 364 747</p>
+            <p>Internacional : +34 945 364 747</p>
+            <p>Fax: +34 985 500 345</p>
+        </div>
+        <div class="redes">
+            <h2>¡Siguenos en nuestras redes!</h2>
+            <div class="enlaces">
+                <a href="https://www.instagram.com/"><img src="images/Instagram_icon.png" id="c"/></a>
+                <a href="https://twitter.com/?lang=es"><img src="images/Logo_of_Twitter.png" id="c"/></a>
+                <a href="https://www.facebook.com/?locale=es_ES"><img src="images/Facebook.png" id="c"/></a>
+                <a href="https://www.youtube.com/"><img src="images/youtube.png" id="c"/></a>
+            </div>
+        </div>
+        <div class="text4">
+            <h2>¿Por que somos de confianza?</h2>
+            <p>Somos una gran empresa fundada en 2003 , que a dia de hoy cuenta con mas de 10000 oficinas por toda europa , patrocinadores de equipos de futbol como el RB Leipzig o el Monaco , afiliados con mas de 500 compañias de aerolineas diferentes que nos permite conseguir los vuelos que mejor se ajusten tu a tus prefencias y que cada año sigue expandiendose.</p>
+        </div>
+        <div class="logo2">
+            <img src="images/logo-removebg-preview.png" id="d"/>
+        </div>
     </div>
 
     </body>
