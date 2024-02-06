@@ -1,25 +1,39 @@
 body {
     margin: 0;
+    background-image: url(../images/fondonubesjpg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.img1 {
+    float: right;
+    width:80px;
+    height:80px;
+}
+
+.bottom1 {
+    height: auto;
+}
+
+.bottom2 {
+    height: auto;
+}
+
+.bottom3 {
+    height: auto;
+}
+
+a:link, a:visited {
+    background-color: #80d3f4;
+    color: white;
 }
 
 #degradado {
     position: relative;
-    width: 5000px;
+    width: 100%;
     height: 300px;
     float: none;
-}
-
-#avionIzq {
-    position: absolute;
-    margin: 10px;
-    width: 250px;
-    height: 450px;
-}
-
-#fondoNubes {
-    position: relative;
-    height: 300px;
-    width: 100%;
 }
 
 h1 {
@@ -38,54 +52,154 @@ div {
 }
 
 .cuadricula {
-    margin-left: 10px;
-    margin-top: 10px;
+    position: relative;
+    margin-left: 33%;
+    margin-top: 5%;
+    border: 2px solid black;
+    width: 500px;
+    height: 850px;
+    background-color: antiquewhite;
+}
+
+#datos {
+    position: absolute;
+    margin: 10px 0 10px 10px;
+    font-size: 50px;
+}
+
+.textbox1 {
+    position: absolute;
+    margin: 80px 0 10px 40px;
+    font-size: 30px;
+}
+
+.textbox2 {
+    position: absolute;
+    margin: 150px 0 10px 40px;
+    font-size: 30px;
+}
+
+.textbox3 {
+    position: absolute;
+    margin: 220px 0 10px 40px;
+    font-size: 30px;
+}
+
+.textbox4 {
+    position: absolute;
+    margin: 290px 0 10px 40px;
+    font-size: 30px;
+}
+
+#reserva {
+    position: absolute;
+    margin: 360px 0 10px 10px;
+    font-size: 50px;
 }
 
 .selector1 {
     position: absolute;
-    margin: 0;
+    margin: 430px 0 10px 40px;
     font-size: 30px;
-    padding: 50px 0 0 300px;
 }
 
 .selector2 {
     position: absolute;
-    margin: 0;
+    margin: 500px 0 10px 40px;
     font-size: 30px;
-    padding: 50px 0 0 800px;
 }
 
 .selector3 {
     position: absolute;
-    margin: 0;
+    margin: 570px 0 10px 40px;
     font-size: 30px;
-    padding: 150px 0 0 300px;
 }
 
 .selector4 {
     position: absolute;
-    margin: 0;
+    margin: 640px 0 10px 40px;
     font-size: 30px;
-    padding: 150px 0 0 800px;
 }
 
 .selector5 {
     position: absolute;
-    margin: 0;
+    margin: 710px 0 10px 40px;
     font-size: 30px;
-    padding: 250px 0 0 300px;
 }
 
 .selector6 {
     position: absolute;
-    margin: 0;
+    margin: 780px 0 10px 40px;
     font-size: 30px;
-    padding: 250px 0 0 800px;
 }
 
 select {
     width: 120px;
     height: 35px;
     font-size: 25px;
+}
+
+#confirmar {
+    height: 100px;
+    width: 200px;
+    margin: 100px 0 90px 580px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#cancelar {
+    height: 100px;
+    width: 200px;
+    margin: 100px 0 90px 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.parteAbajo {
+    width: 100%;
+    background-color: #A2DEF6;
+    padding: 20px;
+    height: 250px;
+}
+
+#c {
+    width: 40px;
+    height: 40px;
+}
+
+.contactos {
+  height: 100%;
+  width: 20%;
+  float: left;
+  color: #ffffff;
+}
+
+.redes {
+  height: 100%;
+  width: 25%;
+  float: left;
+  color: #ffffff;
+}
+
+.enlaces {
+  width: 100%;
+  padding-left: 10%;
+  color: white;
+}
+
+.text4 {
+  height: 100%;
+  width: 40%;
+  float: left;
+  color: #ffffff;
+}
+
+.logo2 {
+  height: 100%;
+  padding-left: 10%;
+}
+
+#d {
+  width: 200px;
+  height: 200px;
 }
