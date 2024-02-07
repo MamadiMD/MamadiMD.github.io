@@ -7,168 +7,186 @@
     <link rel="stylesheet" href="CSS/reserva.css" title="Reserva">
 </head>
 <body>
-    <div class="col-12 col-s-12">
-        <img src="images/degradado.jpg" id="degradado">
-        <img src="images/logo-removebg-preview.png" id="logo">
-        <h1>AerolineasM&S</h1>
-        <i id="sub">¡RESERVA AHORA!</i>
+    <div class="navigationbar">
+        <div class="img1"><img src="images/logo-removebg-preview.png" id="a"/></div>
+        <div class="bottom2"><a href="index.html" class="arriba" >INICIO</a></div>
+        <div class="bottom1"><a href="reserva.html" class="arriba" >RESERVAR</a></div>
+        <div class="bottom3"><a href="inforacion.html" class="arriba" >ACERCA DE</a></div>
     </div>
    
-    <div class="cuadricula col-4 col-s-8">
-        
-        <p id="datos">Introduzca sus datos</p>
-
-        <form action="index.html">
-
-            <div class="textbox1">
-                <label for="nombre" id="nombre">Nombre: </label>
-
-                <input type="text" id="nombre" name="nombre">
-            </div>
-
-
-            <div class="textbox2">
-                <label for="apellido" id="apellido">Primer apellido: </label>
-
-                <input type="text" id="apellido" name="apellido">
-            </div>
-
-            <div class="textbox3">
-                <label for="telefono" id="telefono">Telefono: </label>
-
-                <input type="number" id="telefono" name="telefono">
-            </div>
-
-            <div class="textbox4">
-                <label for="dni" id="dni">DNI/NIF: </label>
-
-                <input type="text" id="dni" name="dni">
-            </div>
-
-        </form>
-    
-        <p id="reserva">Datos de reserva</p>
-    
-        <div class="selector1">
-            <label for="origen" id="origen">Origen: </label>
-
-            <select name="origen" id="origen" required>
-                <option value="0">Noain</option>
-                <option value="1">Paris</option>
-                <option value="2">Tokyo</option>
-                <option value="3">Roma</option>
-                <option value="4">Habana</option>
-                <option value="5">Dublin</option>
-                <option value="6">Londres</option>
-                <option value="7">Nueva York</option>
-                <option value="8">Monaco</option>
-                <option value="9">Río de Janeiro</option>
-            </select>
-        </div>
-        
-        <div class="selector2">
-            <label for="destino" id="destino">Destino: </label>
-
-            <select name="destino" id="destino" required>
-                <option value="1">Paris</option>
-                <option value="2">Tokyo</option>
-                <option value="3">Roma</option>
-                <option value="4">Habana</option>
-                <option value="5">Dublin</option>
-                <option value="6">Londres</option>
-                <option value="7">Nueva York</option>
-                <option value="8">Monaco</option>
-                <option value="9">Río de Janeiro</option>
-                <option value="0">Noain</option>
-            </select>
-        </div>
-
-        <div class="selector3">
-            <label for="hora">Hora de salida: </label>
-
-            <select name="hora" required>
-                <option value="2">2:00</option>
-                <option value="4">4:00</option>
-                <option value="6">6:00</option>
-                <option value="8">8:00</option>
-                <option value="10">10:00</option>
-                <option value="12">12:00</option>
-                <option value="14">14:00</option>
-                <option value="16">16:00</option>
-                <option value="18">18:00</option>
-                <option value="20">20:00</option>
-                <option value="22">22:00</option>
-                <option value="24">24:00</option>
-            </select>
-        </div>
-
-        <div class="selector4">
-            <label for="billetes">Cantidad de billetes: </label>
-
-            <select name="billetes" required>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-            </select>
-        </div>
-
-        <div class="selector5">
-            <label for="asiento">Asiento: </label>
-
-            <select name="clase" required>
-                <option value="1">Normal</option>
-                <option value="2">Luxury</option>
-                <option value="3">VIP</option>
-            </select>
-        </div>
-
-        <div class="selector6">
-            <label for="comienzo">Fecha:</label>
-            <input type="date" id="comienzo" name="calendarioViaje" min="08/02/2024"/>
+    <div class="main">
+        <div class="cuadricula">
+       
+            <h2 id="datos">Introduzca sus datos</h2>
+       
+            <form action="index.html">
+       
+                <div class="textbox">
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                </div>
+       
+       
+                <div class="textbox">
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellidos" required>
+                </div>
+       
+                <div class="textbox">
+                        <select id="pais" name="pais">
+                            <option value="1">🇺🇸 (+1)</option>
+                            <option value="44">🇬🇧 (+44)</option>
+                            <option value="49">🇩🇪 (+49)</option>
+                            <option value="33">🇫🇷 (+33)</option>
+                            <option value="39">🇮🇹 (+39)</option>
+                            <option value="34">🇪🇸 (+34)</option>
+                            <option value="31">🇳🇱 (+31)</option>
+                            <option value="30">🇬🇷 (+30)</option>
+                            <option value="32">🇧🇪 (+32)</option>
+                            <option value="46">🇸🇪 (+46)</option>
+                            <option value="48">🇵🇱 (+48)</option>
+                            <option value="41">🇨🇭 (+41)</option>
+                            <option value="36">🇭🇺 (+36)</option>
+                            <option value="43">🇦🇹 (+43)</option>
+                            <option value="45">🇩🇰 (+45)</option>
+                            <option value="353">🇮🇪 (+353)</option>
+                            <option value="47">🇳🇴 (+47)</option>
+                            <option value="358">🇫🇮 (+358)</option>
+                            <option value="420">🇨🇿 (+420)</option>
+                            <option value="371">🇱🇻 (+371)</option>
+                        </select>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Telefono" pattern="[0-9]{9}" title="El número de teléfono debe contener 9 dígitos numéricos." required>
+                </div>
+       
+                <div class="textbox">
+                    <input type="email" id="correo" name="correo" placeholder="Correo" required>
+                </div>
+                <div class="textbox">
+                    <input type="text" id="dni_nif" name="dni_nif" placeholder="DNI-NIF" pattern="[0-9]{8}[A-Z]{1}" title="Introduce un DNI o NIF válido (introduzca 8 números seguidos y una letra)." required>
+                </div>
+       
+       
+       
+                <h2 id="reserva">Datos de reserva</h2>
+                
+                <div class="selector">
+                    <select name="origen" id="origen" required>
+                        <option value="Origen">Origen</option>
+                        <option value="España">España - Madrid</option>
+                        <option value="Austria">Austria - Viena</option>
+                        <option value="Bélgica">Bélgica - Bruselas</option>
+                        <option value="Bulgaria">Bulgaria - Sofía</option>
+                        <option value="Chipre">Chipre - Nicosia</option>
+                        <option value="Croacia">Croacia - Zagreb</option>
+                        <option value="Dinamarca">Dinamarca - Copenhague</option>
+                        <option value="Eslovaquia">Eslovaquia - Bratislava</option>
+                        <option value="Eslovenia">Eslovenia - Liubliana</option>
+                        <option value="Estonia">Estonia - Tallin</option>
+                        <option value="Finlandia">Finlandia - Helsinki</option>
+                        <option value="Francia">Francia - París</option>
+                        <option value="Grecia">Grecia - Atenas</option>
+                        <option value="Hungría">Hungría - Budapest</option>
+                        <option value="Irlanda">Irlanda - Dublín</option>
+                        <option value="Italia">Italia - Roma</option>
+                        <option value="Letonia">Letonia - Riga</option>
+                        <option value="Lituania">Lituania - Vilna</option>
+                        <option value="Luxemburgo">Luxemburgo - Luxemburgo</option>
+                        <option value="Malta">Malta - La Valeta</option>
+                        <option value="Países Bajos">Países Bajos - Ámsterdam</option>
+                        <option value="Polonia">Polonia - Varsovia</option>
+                        <option value="Portugal">Portugal - Lisboa</option>
+                        <option value="República Checa">República Checa - Praga</option>
+                        <option value="Rumania">Rumania - Bucarest</option>
+                        <option value="Suecia">Suecia - Estocolmo</option>
+                        <option value="Francia">Francia - Paris</option>
+                    </select>
+                </div>
+            
+                <div class="selector">
+                    <select name="destino" id="destino" required>
+                        <option value="Destino">Destino</option>
+                        <option value="Austria">Austria - Viena</option>
+                        <option value="Bélgica">Bélgica - Bruselas</option>
+                        <option value="Bulgaria">Bulgaria - Sofía</option>
+                        <option value="Chipre">Chipre - Nicosia</option>
+                        <option value="Croacia">Croacia - Zagreb</option>
+                        <option value="Dinamarca">Dinamarca - Copenhague</option>
+                        <option value="Eslovaquia">Eslovaquia - Bratislava</option>
+                        <option value="Eslovenia">Eslovenia - Liubliana</option>
+                        <option value="España">España - Madrid</option>
+                        <option value="Estonia">Estonia - Tallin</option>
+                        <option value="Finlandia">Finlandia - Helsinki</option>
+                        <option value="Francia">Francia - París</option>
+                        <option value="Grecia">Grecia - Atenas</option>
+                        <option value="Hungría">Hungría - Budapest</option>
+                        <option value="Irlanda">Irlanda - Dublín</option>
+                        <option value="Italia">Italia - Roma</option>
+                        <option value="Letonia">Letonia - Riga</option>
+                        <option value="Lituania">Lituania - Vilna</option>
+                        <option value="Luxemburgo">Luxemburgo - Luxemburgo</option>
+                        <option value="Malta">Malta - La Valeta</option>
+                        <option value="Países Bajos">Países Bajos - Ámsterdam</option>
+                        <option value="Polonia">Polonia - Varsovia</option>
+                        <option value="Portugal">Portugal - Lisboa</option>
+                        <option value="República Checa">República Checa - Praga</option>
+                        <option value="Rumania">Rumania - Bucarest</option>
+                        <option value="Suecia">Suecia - Estocolmo</option>
+                        <option value="Francia">Francia - Paris</option>
+                    </select>
+                </div>
+            
+                <div class="selector">
+                    <select name="hora" required>
+                        <option value="hora">Hora de salida</option>
+                        <option value="2">2:00</option>
+                        <option value="4">4:00</option>
+                        <option value="6">6:00</option>
+                        <option value="8">8:00</option>
+                        <option value="10">10:00</option>
+                        <option value="12">12:00</option>
+                        <option value="14">14:00</option>
+                        <option value="16">16:00</option>
+                        <option value="18">18:00</option>
+                        <option value="20">20:00</option>
+                        <option value="22">22:00</option>
+                        <option value="24">24:00</option>
+                    </select>
+                </div>
+            
+                <div class="selector">
+                    <select name="billetes" required>
+                        <option value="0">Numero de billetes</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+            
+                <div class="selector">
+                    <select name="clase" required>
+                        <option value="0">Asiento</option>
+                        <option value="1">Normal</option>
+                        <option value="2">Luxury</option>
+                        <option value="3">VIP</option>
+                    </select>
+                </div>
+            
+                <div class="textbox">
+                    <input type="date" id="comienzo" name="calendarioViaje" min="29/01/2024" required/>
+                </div>
+                <div class="radio">
+                    <input type="radio" id="terminos" name="terminos" required/>
+                    <label for="terminos">Confirmo que e leido y acepto los <a href="inforacion.html">terminos y cookies</a></label>
+                </div>
+                <div class="boton">
+                    <input type="submit" value="Confirmar" id="boton"/>
+                </div>
+            </form>
         </div>
     </div>
-
-    <div class="checkbox col-8">
-        <input type="checkbox" id="checkbox" name="acuerdo" required>
-        <label for="checkbox">Confirma que ha leido y acepta nuestros términos de servicio y <a href="inforacion.html">política de privacidad</a></label> 
-    </div>
-
-    <div class="botones col-12">
-        <a href="index.html" id="confirmar">CONFIRMAR</a>
-        <a href="index.html" id="cancelar">CANCELAR</a>
-    </div>
-
-    <div class="parteAbajo col-12 col-s-12">
-        <div class="contactos">
-            <h2>Contactanos</h2>
-            <p>Correo:aerolineasmase@tuempresa.com <br><br>
-               Telefono: +34 945 364 747 <br><br>
-               Internacional : +34 945 364 747 <br><br>
-               Fax: +34 985 500 345</p>
-        </div>
-        <div class="redes">
-            <h2>¡Siguenos en nuestras redes!</h2>
-            <div class="enlaces">
-                <a href="https://www.instagram.com/"><img src="images/Instagram_icon.png" id="c"/></a>
-                <a href="https://twitter.com/?lang=es"><img src="images/Logo_of_Twitter.png" id="c"/></a>
-                <a href="https://www.facebook.com/?locale=es_ES"><img src="images/Facebook.png" id="c"/></a>
-                <a href="https://www.youtube.com/"><img src="images/youtube.png" id="c"/></a>
-            </div>
-        </div>
-        <div class="text4">
-            <h2>¿Por que somos de confianza?</h2>
-            <p>Somos una gran empresa fundada en 2003 , que a dia de hoy cuenta con mas de 10000 oficinas por toda europa , patrocinadores de equipos de futbol como el RB Leipzig o el Monaco , afiliados con mas de 500 compañias de aerolineas diferentes que nos permite conseguir los vuelos que mejor se ajusten tu a tus prefencias y que cada año sigue expandiendose.</p>
-        </div>
-        <div class="logo2">
-            <img src="images/logo-removebg-preview.png" id="d"/>
-        </div>
-    </div>
-
-    </body>
+</body>
 </html>
