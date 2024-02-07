@@ -36,7 +36,7 @@
             <div class="textbox3">
                 <label for="telefono" id="telefono">Telefono: </label>
 
-                <input type="text" id="telefono" name="telefono">
+                <input type="number" id="telefono" name="telefono">
             </div>
 
             <div class="textbox4">
@@ -53,15 +53,16 @@
             <label for="origen" id="origen">Origen: </label>
 
             <select name="origen" id="origen" required>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
+                <option value="0">Noain</option>
+                <option value="1">Paris</option>
+                <option value="2">Tokyo</option>
+                <option value="3">Roma</option>
+                <option value="4">Habana</option>
+                <option value="5">Dublin</option>
+                <option value="6">Londres</option>
+                <option value="7">Nueva York</option>
+                <option value="8">Monaco</option>
+                <option value="9">Río de Janeiro</option>
             </select>
         </div>
         
@@ -69,18 +70,16 @@
             <label for="destino" id="destino">Destino: </label>
 
             <select name="destino" id="destino" required>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
+                <option value="1">Paris</option>
+                <option value="2">Tokyo</option>
+                <option value="3">Roma</option>
+                <option value="4">Habana</option>
+                <option value="5">Dublin</option>
+                <option value="6">Londres</option>
+                <option value="7">Nueva York</option>
+                <option value="8">Monaco</option>
+                <option value="9">Río de Janeiro</option>
+                <option value="0">Noain</option>
             </select>
         </div>
 
@@ -131,22 +130,27 @@
 
         <div class="selector6">
             <label for="comienzo">Fecha:</label>
-            <input type="date" id="comienzo" name="calendarioViaje" min="29/01/2024"/>
+            <input type="date" id="comienzo" name="calendarioViaje" min="08/02/2024"/>
         </div>
     </div>
 
+    <div class="checkbox">
+        <input type="checkbox" id="checkbox" name="acuerdo" required>
+        <label for="checkbox">Confirma que ha leido y acepta nuestros términos de servicio y <a href="inforacion.html">política de privacidad</a></label> 
+    </div>
+
     <div class="botones">
-        <a href="confirmacion.html" id="confirmar">CONFIRMAR</a>
+        <a href="index.html" id="confirmar">CONFIRMAR</a>
         <a href="index.html" id="cancelar">CANCELAR</a>
     </div>
 
     <div class="parteAbajo">
         <div class="contactos">
             <h2>Contactanos</h2>
-            <p>Correo:aerolineasmase@tuempresa.com</p>
-            <p>Telefono: +34 945 364 747</p>
-            <p>Internacional : +34 945 364 747</p>
-            <p>Fax: +34 985 500 345</p>
+            <p>Correo:aerolineasmase@tuempresa.com <br><br>
+               Telefono: +34 945 364 747 <br><br>
+               Internacional : +34 945 364 747 <br><br>
+               Fax: +34 985 500 345</p>
         </div>
         <div class="redes">
             <h2>¡Siguenos en nuestras redes!</h2>
