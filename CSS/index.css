@@ -115,8 +115,6 @@ body{
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: #A2DEF6;
-  margin-right: 5%;
-  
 }
 .imagen:hover {
   filter: opacity(.4);
@@ -131,7 +129,7 @@ body{
 }
 
 .map{
-  padding-left: 20%;
+  padding-left: 15%;  
   width: 100%;
   padding-top: 5%;
   padding-bottom: 5%;
@@ -182,12 +180,6 @@ body{
   width: 200px;
   height: 200px;
 }
-@media only screen and(max-width: 400px){
-  .map{
-    
-  }
-  #f{
-
-  }
-
+@media only screen and(max-width: 500px){
+  
 }
