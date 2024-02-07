@@ -33,17 +33,7 @@ body {
     color: #ffffff;
 }
 
-.bottom1 {
-    height: auto;
-    float: left;
-}
-
-.bottom2 {
-    height: auto;
-    float: left;
-}
-
-.bottom3 {
+.boton1 {
     height: auto;
     float: left;
 }
@@ -239,5 +229,5 @@ select {
     .cuadricula {
         width: 400px;
         margin-left: 60%;
-      }
+    }
 }
