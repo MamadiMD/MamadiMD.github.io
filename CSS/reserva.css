@@ -154,52 +154,44 @@ select {
     font-size: 30px;
     text-align: center;
 }
-
-.parteAbajo {
+.parteAbajo{
     width: 100%;
     background-color: #A2DEF6;
     padding: 20px;
     height: 250px;
-}
-
-#c {
+  }
+  #c{
     width: 40px;
     height: 40px;
-}
-
-.contactos {
-  height: 100%;
-  width: 20%;
-  float: left;
-  color: #ffffff;
-}
-
-.redes {
-  height: 100%;
-  width: 25%;
-  float: left;
-  color: #ffffff;
-}
-
-.enlaces {
-  width: 100%;
-  padding-left: 10%;
-  color: white;
-}
-
-.text4 {
-  height: 100%;
-  width: 40%;
-  float: left;
-  color: #ffffff;
-}
-
-.logo2 {
-  height: 100%;
-  padding-left: 10%;
-}
-
-#d {
-  width: 200px;
-  height: 200px;
-}
+  }
+  .contactos{
+    height: 100%;
+    width: 20%;
+    float: left;
+    color: #ffffff;
+  }
+  .redes{
+    height: 100%;
+    width: 25%;
+    float: left;
+    color: #ffffff;
+  }
+  .enlaces{
+    width: 100%;
+    padding-left: 10%;
+    color: white;
+  }
+  .text4{
+    height: 100%;
+    width: 40%;
+    float: left;
+    color: #ffffff;
+  }
+  .logo2{
+    height: 100%;
+    padding-left: 10%;
+  }
+  #d{
+    width: 200px;
+    height: 200px;
+  }
